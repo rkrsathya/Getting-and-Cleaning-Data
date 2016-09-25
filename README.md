@@ -12,24 +12,24 @@
 
 ## Execution steps
 
-Download the data source zip file and unzip with the foldername as "getdata_projectfiles_UCI HAR Dataset" in working folder.
-Run run_analysis.R file in working folder.
-Creates the tidyset.txt in working folder.
+   1. Download the data source zip file and unzip with the foldername as "getdata_projectfiles_UCI HAR Dataset" in working folder.
+   2. Run run_analysis.R file in working folder.
+   3. Creates the tidyset.txt in working folder.
 
 ## Process steps
 
-Load the train, test data, activity label and subject as data table
-load the feature names for the train and test data
-Populate column names for train and test data
-Bind the train and test data with columns activity labels and subject
-Merge train and test data
-Extract the data with columns of feature measurements having mean and SD
-Average the measurements for each activity and subject and create a tidy data set.
+   1. Load the train, test data, activity label and subject as data table
+   2. Load the feature names for the train and test data
+   3. Populate column names for train and test data
+   4. Bind the train and test data with columns activity labels and subject
+   5. Merge train and test data
+   6. Extract the data with columns of feature measurements having mean and SD
+   7. Average the measurements for each activity and subject and create a tidy data set.
 
 ## Dependencies
 
-Data.Table package
-Dplyr package
+* Data.Table package
+* Dplyr package
 
 
 
